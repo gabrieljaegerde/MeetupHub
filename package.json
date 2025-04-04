@@ -13,6 +13,7 @@
     "@headlessui/react": "^2.2.0",
     "@heroicons/react": "^2.2.0",
     "@polkadot-api/descriptors": "file:.papi/descriptors",
+    "@polkadot-api/sdk-ink": "0.0.1-1",
     "@reactive-dot/core": "^0.38.1",
     "@reactive-dot/react": "^0.38.1",
     "@reactive-dot/wallet-ledger": "^0.16.31",

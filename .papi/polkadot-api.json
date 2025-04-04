@@ -21,6 +21,19 @@
       "chain": "polkadot_asset_hub",
       "metadata": ".papi/metadata/polkadot_asset_hub.scale",
       "genesis": "0x68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f"
+    },
+    "pop": {
+      "wsUrl": "wss://rpc1.paseo.popnetwork.xyz",
+      "metadata": ".papi/metadata/pop.scale",
+      "genesis": "0xe8b2d197b82a0da1fffca832c050894ebe343b289c61ef439aa694bdcef78aa1"
+    },
+    "hydration": {
+      "wsUrl": "wss://hydration-rpc.n.dwellir.com",
+      "metadata": ".papi/metadata/hydration.scale",
+      "genesis": "0xafdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d"
     }
+  },
+  "ink": {
+    "meetuphub": ".papi/contracts/meetuphub.json"
   }
 }

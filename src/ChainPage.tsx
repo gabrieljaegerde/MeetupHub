@@ -2,10 +2,13 @@ import { useChainId, useLazyLoadQuery } from "@reactive-dot/react";
 
 export function ChainPage() {
   const chainId = useChainId();
+  console.log(chainId);
 
   const [timestamp, blockNumber] = useLazyLoadQuery((builder) =>
     builder.storage("Timestamp", "Now").storage("System", "Number"),
   );
+  console.log(timestamp, blockNumber);
+
 
   return (
     <>

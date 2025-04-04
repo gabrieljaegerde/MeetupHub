@@ -1,0 +1,21 @@
+{
+  "name": "Pop Network Testnet",
+  "id": "pop-testnet",
+  "chainType": "Live",
+  "bootNodes": [
+    "/dns/rpc1.paseo.popnetwork.xyz/tcp/30333/p2p/12D3KooWNmudHffwfRQwwaBfA6q7Ez1EcjVQ3EZe7RHiYKE5V6ij",
+    "/dns/rpc2.paseo.popnetwork.xyz/tcp/30333/p2p/12D3KooWR2Qrt8Ujd1d2gXvZuYnJkP6EEXCSSk6K6ghxNw1hvrFz",
+    "/dns/rpc3.paseo.popnetwork.xyz/tcp/30333/p2p/12D3KooWRzKM1LeD75v9WeG2U5fz2CXQHPQsgfWfU3aTrp3xFe9G"
+  ],
+  "properties": {
+    "tokenDecimals": 10,
+    "tokenSymbol": "PAS"
+  },
+  "relay_chain": "paseo",
+  "para_id": 4001,
+  "consensusEngine": null,
+  "codeSubstitutes": {},
+  "genesis": {
+    "stateRootHash": "0xb288a41fe6dc4d2f747395025ea418be24a72da0ef61641a1a929dc09999a886"
+  }
+}
